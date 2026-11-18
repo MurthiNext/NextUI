@@ -37,6 +37,7 @@ tasks.withType(JavaCompile).configureEach {
 publishing {
     publications {
         mavenJava(MavenPublication) {
+            artifactId = "nextui-forge-${minecraft_version}"
             artifact tasks.named('jar')
         }
     }

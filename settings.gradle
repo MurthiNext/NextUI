@@ -8,4 +8,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'nextui-forge-1.20.1'
+rootProject.name = 'nextui'
