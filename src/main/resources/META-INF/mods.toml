@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "nextui"
+version = "${mod_version}"
+displayName = "NextUI"
+displayTest = "IGNORE_ALL_VERSION"
+authors = "MurthiNext"
+description = "MurthiNext's General UI Lib."
+
+[[dependencies.nextui]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,48)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nextui]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
